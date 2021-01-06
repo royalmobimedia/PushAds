@@ -40,7 +40,7 @@ In MainActivity.java -
     //Declaration ImageView banner_ad;
     PushAds  pads; //The  ad  library  class
     //Inside  onCreate()  function
-    banner_ad = findViewByid(R.id.banner_ad);
+    banner_ad = findViewById(R.id.banner_ad);
     pads = new PushAds();
     pads.displayAds(MainActivity.this, banner_ad);
 
